@@ -124,7 +124,7 @@ a.site-logo {
 /* mobile breakpoint start */
 @media screen and (max-width: 767px) {
   .container {
-    max-width: 720px;
+    max-width: 500px;
   }
   /* navbar css for mobile start */
   .nav-toggler{
@@ -208,10 +208,17 @@ a.site-logo {
   opacity: 0.6;
 } 
 
-.main-container{
+.main-container {
   margin-top: 50px;
-  padding: 100px 200px 200px;
+  padding: 100px 70px 70px; /* Reduzindo o preenchimento para dispositivos móveis */
   text-align: center;
+}
+
+/* Adaptações específicas para dispositivos móveis */
+@media (max-width: 768px) {
+  .main-container {
+    padding: 20px 10px 10px; /* Reduzindo ainda mais o preenchimento para dispositivos móveis */
+  }
 }
 
 .main-container h1{
@@ -299,7 +306,7 @@ a.site-logo {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .footer-content {
     flex-direction: column;
   }
