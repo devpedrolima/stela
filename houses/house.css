@@ -120,7 +120,7 @@
   
   
   /* mobile breakpoint start */
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 900px) {
     .container {
       max-width: 720px;
     }
@@ -204,7 +204,6 @@
   
   .intro-text {
     flex: 1;
-    padding: 0 20px;
     text-align: right;
     color: #000;
   }
