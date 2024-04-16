@@ -1,0 +1,43 @@
+<div class="item">
+      <img src="../pictures/1.jpg" alt="Imagem 1">
+      <h2>3 Bedroom House, Douglas, Co. Cork</h2>
+      <p>€1.600.000,00</p>
+      <button class="blackk-button">Search for houses</button>
+    </div>
+    <div class="item">
+      <img src="../pictures/2.jpg" alt="Imagem 2">
+      <h2>4 Bedroom House, Sandymount, Co. Dublin</h2>
+      <p>€1.900.000,00</p>
+      <button class="blackk-button">Search for houses</button>
+    </div>
+
+
+
+.item {
+    flex: 1;
+    max-width: calc(50% - 10px); /* Garante que haja espaço entre os containers */
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    border-radius: 5px;
+    background-color: #fff;
+  
+    
+  }
+
+  .item img {
+    max-width: 70%;
+    height: auto;
+  }
+  
+  .item h2 {
+    text-align: center;
+    margin-top:20px;
+  }
+  
+  .item p {
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 30px;
+  }
+  
