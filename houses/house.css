@@ -239,7 +239,8 @@
   
   @media screen and (max-width: 800px) {
     .main-container {
-      margin: 30px 30px 30px; /* Remover as margens em telas menores */
+      margin: 30px 30px 30px; 
+      padding: -300px 0px 0px -200px;/* Remover as margens em telas menores */
     }
   
     .intro-content {
